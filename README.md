@@ -1,4 +1,4 @@
-# Bankers_algorithm
+## Bankers Algorithm
 
 https://www.wikitechy.com/technology/bankers-algorithm/
 
