@@ -5,7 +5,7 @@ https://www.wikitechy.com/technology/bankers-algorithm/
 Algoritmo baseado numa matriz para detecção de deadlock com n processos 
 e m classes de recursos diferentes.
   
-```sql
+```kotlin
 
 Exemplo:
 
