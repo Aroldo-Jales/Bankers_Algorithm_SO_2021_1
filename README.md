@@ -1,11 +1,9 @@
 # Bankers_algorithm
-Trabalho da disciplina de Sistemas Operacionais 2021.1, algoritmo em python para simular o algoritmo do banqueiro
 
 https://www.wikitechy.com/technology/bankers-algorithm/
 
-
-#### Detecção de Deadlock com várias recursos de cada tipo Algoritmo baseado numa matriz para detecção de deadlock com n processos 
-#### e m classes de recursos diferentes.
+Algoritmo baseado numa matriz para detecção de deadlock com n processos 
+e m classes de recursos diferentes.
 
 ```python
 
