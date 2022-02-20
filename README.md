@@ -7,12 +7,12 @@ e m classes de recursos diferentes.
 
 #### Algoritmo:
 
-  1 . Procure por um processo desmarcado Pi, para o qual a i-ésima linha de R é menor do que a correspondente de A.
+1 . Procure por um processo desmarcado Pi, para o qual a enésima linha de R é menor do que a correspondente de A.
 
-  2. Se um processo com tais característica for encontrado, adicione a enésima linha de C a A, marque o processo e volte para o 
-  #passo 1.
+2. Se um processo com tais característica for encontrado, adicione a enésima linha de C a A, marque o processo e volte para o 
+passo 1.
 
-  3. Se não houver nenhum processo nesta situação, o algoritmo termina.
+3. Se não houver nenhum processo nesta situação, o algoritmo termina.
   
 ```python
 
