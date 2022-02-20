@@ -3,10 +3,11 @@ Trabalho da disciplina de Sistemas Operacionais 2021.1, algoritmo em python para
 
 https://www.wikitechy.com/technology/bankers-algorithm/
 
-```python
 
-# Detecção de Deadlock com várias recursos de cada tipo Algoritmo baseado numa matriz para detecção de deadlock com n processos 
-# e m classes de recursos diferentes.
+#### Detecção de Deadlock com várias recursos de cada tipo Algoritmo baseado numa matriz para detecção de deadlock com n processos 
+#### e m classes de recursos diferentes.
+
+```python
 
 Estrutura de dados:
   E = (E1, E2, E3, ..., Em): vetor de recursos existentes
@@ -15,16 +16,19 @@ Estrutura de dados:
   Cij = número de instâncias de um recurso j entregue ao processo i
   Rnm = matriz de requisições
   Rij = número de instâncias do recurso j de que o processo Pi precisa
+  
+```
 
+#### Algoritmo:
 
-Algoritmo:
+  1 . Procure por um processo desmarcado Pi, para o qual a i-ésima linha de R é menor do que a correspondente de A.
 
-  # 1 . Procure por um processo desmarcado Pi, para o qual a i-ésima linha de R é menor do que a correspondente de A.
-
-  # 2. Se um processo com tais característica for encontrado, adicione a enésima linha de C a A, marque o processo e volte para o 
+  2. Se um processo com tais característica for encontrado, adicione a enésima linha de C a A, marque o processo e volte para o 
   #passo 1.
 
-  # 3. Se não houver nenhum processo nesta situação, o algoritmo termina.
+  3. Se não houver nenhum processo nesta situação, o algoritmo termina.
+  
+```python
 
 Exemplo:
 
@@ -48,7 +52,7 @@ Exemplo:
   P3 (rodar) A = (2 2 2 0)
   P2 (rodar) A = (4 2 2 1)
   P1 (rodar) não há deadlock
-
+  
   # Obs: Se R[3,4] fosse igual a 1, todo o processo estaria em deadlock.
   
 ```
