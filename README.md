@@ -5,18 +5,6 @@ https://www.wikitechy.com/technology/bankers-algorithm/
 Algoritmo baseado numa matriz para detecção de deadlock com n processos 
 e m classes de recursos diferentes.
 
-```python
-
-Estrutura de dados:
-  E = (E1, E2, E3, ..., Em): vetor de recursos existentes
-  A = (A1, A2, A3, ..., Am): vetor de recursos disponíveis
-  Cnm = matriz de alocação corrente
-  Cij = número de instâncias de um recurso j entregue ao processo i
-  Rnm = matriz de requisições
-  Rij = número de instâncias do recurso j de que o processo Pi precisa
-  
-```
-
 #### Algoritmo:
 
   1 . Procure por um processo desmarcado Pi, para o qual a i-ésima linha de R é menor do que a correspondente de A.
