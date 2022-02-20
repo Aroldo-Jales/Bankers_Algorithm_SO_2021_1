@@ -5,8 +5,8 @@ https://www.wikitechy.com/technology/bankers-algorithm/
 
 ```
 
-Detecção de Deadlock com várias recursos de cada tipo Algoritmo baseado numa matriz para detecção de deadlock 
-com n processos e m classes de recursos diferentes.
+Detecção de Deadlock com várias recursos de cada tipo Algoritmo baseado numa matriz para detecção de deadlock com n processos 
+e m classes de recursos diferentes.
 
 Estrutura de dados:
   E = (E1, E2, E3, ..., Em): vetor de recursos existentes
