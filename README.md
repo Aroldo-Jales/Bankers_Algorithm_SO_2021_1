@@ -3,7 +3,7 @@ Trabalho da disciplina de Sistemas Operacionais 2021.1, algoritmo em python para
 
 https://www.wikitechy.com/technology/bankers-algorithm/
 
-```
+python```
 
 Detecção de Deadlock com várias recursos de cada tipo Algoritmo baseado numa matriz para detecção de deadlock com n processos 
 e m classes de recursos diferentes.
